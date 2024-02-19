@@ -15,72 +15,70 @@
 .font-raleway{
   font-family: "Raleway", sans-serif;
 }
-
 </style>
 </head>
 <body class="font-raleway ">
-  <header class="px-6 lg:px-24 mx-auto" >
-    <!-- nav bar starts here -->
-    <nav class="text-[#030712] flex justify-between items-center p-4">
-      <div class="text-3xl font-extrabold">P-Ticket</div>
-      
-      <ul class="m-0 p-0 flex list-none">
-          <li class="mr-7 decoration-auto"><a href="#">Home</a></li>
-          <li class="mr-7"><a href="#">About</a></li>
-          <li class="mr-7"><a href="#">Destination</a></li>
-          <li class="mr-0"><a href="#">Search</a></li>
-      </ul>
-      <div >
-          <button class="flex items-center bg-[#e6d9d9] text-green-500 p-4 text-xl font-bold rounded cursor-pointer">
-            <span>Bus</span>
-          <img class="mr-2 h-5 flex items-center" src="images/bus-icon.png" alt="Bus Icon">
-          </button>
-      </div>
-  </nav>
-  <!-- nav bar ends -->
-  </header>
-  <main>
-  <section class="px-6 lg:px-24 mx-auto">
-    <!-- Bannar Section starts -->
-    <div class="relative h-[500px] min-h-0 md:min-h-full bg-cover bg-center flex items-center justify-center bg-[images/bus-icon.png]" style="background-image: url('images/banner.png')">
-      <div class="absolute inset-0 bg-black opacity-50"></div>
-      <div class="absolute z-10 text-white text-center">
-        <h1 class="text-4xl md:text-6xl font-bold mb-8">End-to-End Travel with </h1>
-        <h3 class="text-4xl md:text-6xl font-bold mb-8">P Paribahan</h3>
-        <p class="text-base md:text-lg">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
-        <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md">Buy Tickets</button>
-      </div>
-      <!-- <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-10">
-        <div class="flex justify-center space-x-4">
-          <div class="bg-white text-black px-4 py-1 rounded">Luxury</div>
-          <div class="bg-white text-black px-4 py-1 rounded">Comfort</div>
-          <div class="bg-white text-black px-4 py-1 rounded">Safety</div>
-        </div> -->
-      </div>
-    </div>
-    <!-- Bannar Section Ends -->
-  </section>
-  
-    
- <!-- Best Offers for you starts -->
-    <section class="flex flex-col gap-6 container bg-[#F7F8F8] my-12 px-6 lg:px-24 mx-auto ">
-              <h2 class="font-bold text-4xl text-center">Best offers for you</h2>
-              
-              <div class="flex justify-between gap-4 ">
 
-              <div class="bg-[#FFBF0F] rounded-xl font-inter flex justify-center items-center w-1/2 h-52 gap-8 ">
-            <div>
-              <h2 class="font-extrabold text-3xl">15% OFF</h2>
-            <p class="font-bold">on your next purchase</p>
-              <p>use by January 2024</p>
-            </div>
-            <img src="images/cupon-devider.png" alt="">
-            <div>
-            <h2 class="font-bold">NEW15</h2>
-            <p>Coupon Code</p>
-        
-          </div>
-          </div>
+<header class="px-6 lg:px-24 mx-auto" >
+<!-- nav bar starts here -->
+    
+<nav class="text-[#030712] flex justify-between items-center p-4">
+<div class="text-3xl font-extrabold">P-Ticket</div>
+      
+<ul class="m-0 p-0 flex list-none">
+  <li class="mr-7 decoration-auto"><a href="#">Home</a></li>
+  <li class="mr-7"><a href="#">About</a></li>
+  <li class="mr-7"><a href="#">Destination</a></li>
+  <li class="mr-0"><a href="#">Search</a></li>
+</ul>
+
+<div>
+<button class="flex items-center bg-[#e6d9d9] text-green-500 p-4 text-xl font-bold rounded cursor-pointer">
+      <span>Bus</span>
+      <img class="mr-2 h-5 flex items-center" src="images/bus-icon.png" alt="Bus Icon">
+</button>
+</div>
+</nav>
+<!-- nav bar ends -->
+</header>
+<main>
+<!-- Section-1 (firstPage) Bannar Section starts -->
+
+<section id="firstPage" class="px-6 lg:px-24 mx-auto">
+    
+<div class="relative h-[500px] min-h-0 md:min-h-full bg-cover bg-center flex items-center justify-center bg-[images/bus-icon.png]" style="background-image: url('images/banner.png')">
+
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+
+  <div class="absolute z-10 text-white text-center">
+  <h1 class="text-4xl md:text-6xl font-bold mb-8">End-to-End Travel with </h1>
+  <h3 class="text-4xl md:text-6xl font-bold mb-8">P Paribahan</h3>
+  <p class="text-base md:text-lg">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+  <button id="goToThirdPageButton" class=" mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md">Buy Tickets</button>
+  </div>
+
+</div>
+<!-- Bannar Section Ends -->
+</section>
+
+<!-- Section-2 (secondPage) Best Offers for you starts -->
+<section id="secondPage" class="flex flex-col gap-6 container bg-[#F7F8F8] my-12 px-6 lg:px-24 mx-auto ">
+
+<h2 class="font-bold text-4xl text-center">Best offers for you</h2>
+
+<div class="flex justify-between gap-4 ">
+    <div class="bg-[#FFBF0F] rounded-xl font-inter flex justify-center items-center w-1/2 h-52 gap-8 ">
+      <div>
+      <h2 class="font-extrabold text-3xl">15% OFF</h2>
+      <p class="font-bold">on your next purchase</p>
+      <p>use by January 2024</p>
+      </div>
+      <img src="images/cupon-devider.png" alt="">
+      <div>
+      <h2 class="font-bold">NEW15</h2>
+      <p>Coupon Code</p>
+      </div>
+      </div>
       <div class="bg-[#F78C9C] rounded-xl font-inter flex justify-center items-center w-1/2 h-52 gap-8">
         <div>
           <h2 class="font-extrabold text-3xl">20% OFF</h2>
@@ -97,11 +95,10 @@
         </div>
       <button class="btn btn-outline btn-accent w-54 mx-auto text-[#1DD100]">Buy Tickets</button>
       <!--Best Offers for you ends  -->
-     </section>
-<section>
-<!-- Bus layout starts -->
+</section>
 
-<section class="bg-[#F7F8F8] rounded-t-xl ">
+<!-- section-3 (thirdPage) Bus layout starts -->
+<section id="thirdPage" class="  bg-[#F7F8F8] rounded-t-xl ">
   <h2 class="font-raleway font-bold text-4xl text-center py-12">P.H Paribahan</h2>
   <p class=" text-center">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
   <div class="container px-6 lg:px-24 mx-auto my-6 bg-white flex justify-between">
@@ -115,7 +112,7 @@
         </div>
         <div class="bg-[#F7F8F8] rounded-xl flex gap-2">
           <img class="border-[#1DD100]" src="images/seat-green.png" alt="">
-          <p class="text-[#1DD100] p-5">40 Seats left</p>
+          <p id="remainingSeats" class="text-[#1DD100] p-5"> 8 <span>Seats left</span></p>
         </div>
         
         <!-- <button class="p-3"><img src="images/seat-gray.png" alt="">40 Seats left</button> -->
@@ -148,118 +145,61 @@
 
     </div>
   </div>
+<!-- Bus layout ends -->
+</section>
 
-
-
-    <!-- Bus layout ends -->
-      </section>
-<!-- Bus Seat plan -->
-  <section class="bg-white py-6 px-6 lg:px-24 mx-auto relative flex gap-6">
-    <!-- seat left side -->
-        <div class="w-3/5">
-          <div >
-            <h2 class="text-xl font-bold mb-2">Select Your Seat</h2>
-            <hr class="border-dotted">
+<!--section-4 (fourthPage) Bus Seat plan -->
+<section class="bg-white py-6 px-6 lg:px-24 mx-auto relative flex gap-6">
+<!-- seat left side -->
+<div class="w-3/5">
+  <div >
+  <h2 class="text-xl font-bold mb-2">Select Your Seat</h2>
+  <hr class="border-dotted">
             
-            <!-- selected started -->
-              <div class="flex justify-between">
-                <div class="flex">
-                  <img src="images/seat-gray.png" alt="" >
-                  <p>Available</p>
-                </div>
-                <div class="flex">
-                  <img src="images/seat-green-filled.png" alt="">
-                  <p class="text-[#1DD100]">Selected</p>
-                </div>
+  <!-- selected started -->
+<div class="flex justify-between">
+
+  <div class="flex">
+  <img src="images/seat-gray.png" alt="" >
+  <p>Available</p>
+  </div>
+
+  <div class="flex">
+    <img src="images/seat-green-filled.png" alt="">
+    <p class="text-[#1DD100]">Selected</p>
+    </div>
               </div>
             <!-- selected finished -->
               <hr class="border-dotted">
           </div>
           <!-- seat started -->
-              <div class="">
+              <div >
                   <div class=" absolute  top-24 right-[560px] mb-6"> 
                     <img src="images/Group 56.png" alt="">
                   </div>
-                  <!-- 2nd row -->
-                  <div class="flex justify-between mb-3 mt-16">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">A</kbd>
-                    <kbd class="kbd pr-10 pl-10">A1</kbd>
-                    <kbd class="kbd pr-10 pl-10">A2</kbd>
-                    <kbd class="kbd pr-10 pl-10">A3</kbd>
-                    <kbd class="kbd pr-10 pl-10">A4</kbd>
-                  </div>
-                  <!-- 3rd row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">B</kbd>
-                    <kbd class="kbd pr-10 pl-10">B1</kbd>
-                    <kbd class="kbd pr-10 pl-10">B2</kbd>
-                    <kbd class="kbd pr-10 pl-10">B3</kbd>
-                    <kbd class="kbd pr-10 pl-10">B4</kbd>
-                  </div>
-                  <!-- 4th row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">C</kbd>
-                    <kbd class="kbd pr-10 pl-10">C1</kbd>
-                    <kbd class="kbd pr-10 pl-10">C2</kbd>
-                    <kbd class="kbd pr-10 pl-10">C3</kbd>
-                    <kbd class="kbd pr-10 pl-10">C4</kbd>
-                  </div>
-                  <!-- 5th row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">D</kbd>
-                    <kbd class="kbd pr-10 pl-10">D1</kbd>
-                    <kbd class="kbd pr-10 pl-10">D2</kbd>
-                    <kbd class="kbd pr-10 pl-10">D3</kbd>
-                    <kbd class="kbd pr-10 pl-10">D4</kbd>
-                  </div>
-                  <!-- 6th row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">E</kbd>
-                    <kbd class="kbd pr-10 pl-10">E1</kbd>
-                    <kbd class="kbd pr-10 pl-10">E2</kbd>
-                    <kbd class="kbd pr-10 pl-10">E3</kbd>
-                    <kbd class="kbd pr-10 pl-10">E4</kbd>
-                  </div>
-                  <!-- 7th Row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">F</kbd>
-                    <kbd class="kbd pr-10 pl-10">F1</kbd>
-                    <kbd class="kbd pr-10 pl-10">F2</kbd>
-                    <kbd class="kbd pr-10 pl-10">F3</kbd>
-                    <kbd class="kbd pr-10 pl-10">F4</kbd>
-                  </div>
-                  <!-- 8th row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">G</kbd>
-                    <kbd class="kbd pr-10 pl-10">G1</kbd>
-                    <kbd class="kbd pr-10 pl-10">G2</kbd>
-                    <kbd class="kbd pr-10 pl-10">G3</kbd>
-                    <kbd class="kbd pr-10 pl-10">G4</kbd>
-                  </div>
-                  <!-- 9th row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">H</kbd>
-                    <kbd class="kbd pr-10 pl-10">H1</kbd>
-                    <kbd class="kbd pr-10 pl-10">H2</kbd>
-                    <kbd class="kbd pr-10 pl-10">H3</kbd>
-                    <kbd class="kbd pr-10 pl-10">H4</kbd>
-                  </div>
-                  <!-- 10 row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">I</kbd>
-                    <kbd class="kbd pr-10 pl-10">I1</kbd>
-                    <kbd class="kbd pr-10 pl-10">I2</kbd>
-                    <kbd class="kbd pr-10 pl-10">I3</kbd>
-                    <kbd class="kbd pr-10 pl-10">I4</kbd>
-                  </div>
-                  <!-- 11 row -->
-                  <div class="flex justify-between  mb-3">
-                    <kbd class="kbd pr-10 pl-10  bg-white border-none">J</kbd>
-                    <kbd class="kbd pr-10 pl-10">J1</kbd>
-                    <kbd class="kbd pr-10 pl-10">J2</kbd>
-                    <kbd class="kbd pr-10 pl-10">J3</kbd>
-                    <kbd class="kbd pr-10 pl-10">J4</kbd>
-                 </div>
+                  <div id="selected-seats" class="m-20">
+                
+                      <!-- Seats -->
+                      <div class="col-span-3">
+                          <div class="grid grid-cols-4 gap-4">
+                            
+                              <div class="seat text-center cursor-pointer" id="A1">A1</div>
+                              <div class="seat text-center cursor-pointer" id="A2">A2</div>
+                              <div class="seat text-center cursor-pointer" id="A3">A3</div>
+                              <div class="seat text-center cursor-pointer" id="A4">A4</div>
+                              <div class="seat text-center cursor-pointer" id="B1">B1</div>
+                              <div class="seat text-center cursor-pointer" id="B2">B2</div>
+                              <div class="seat text-center cursor-pointer" id="B3">B3</div>
+                              <div class="seat text-center cursor-pointer" id="B4">B4</div>
+                          </div>
+                      </div>
+
+
+
+
+
+                    
+                </div>
 
 
               </div>
@@ -276,7 +216,7 @@
           <h2 class="text-xl font-bold mb-2">Select Your Seat</h2>
           <hr class="border-dotted">
             <div class="flex justify-between mb-3">
-              <p>Seat <span>0</span></p>
+              <p>Seat <span id="selectedSeats">0</span></p>
               <p>Class</p>
               <p>Price</p>
             </div>
@@ -294,44 +234,40 @@
             </div>
             <hr>
             <div class="flex justify-between mb-3">
-              <p>Total Price</p>
-              <p> BDT <span>1000</span></p>
+              <p >Total Price</p>
+              <div class="text-center mb-2">
+                <p class="font-bold">Total Fare:</p>
+                <p id="totalFare">BDT 0</p>
+            </div>
             </div>
             <div class="flex justify-between  mb-3">
-            <input class ="border-2 rounded" type="text" placeholder="Have any coupon">
-            <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold p-2 rounded-md">Apply</button>
+            <input class ="border-2 rounded" type="text" id="couponCode" placeholder="Have any coupon">
+            <button id="applyBtn" class="bg-gray-500 text-white px-4 py-2 rounded disabled:opacity-50 disabled:cursor-not-allowed" disabled>Apply</button>
           </div>
             <div class="flex justify-between">
               <p>Grand Total</p>
-              <p>BDT <span>1100</span></p>
-            </div>
-            
-            
-            
-           
-            
+              <p>BDT <span>0</span></p>
+            </div>     
             
 
             <label class="form-control w-full max-w-xs">Passenger Name *</label>
             <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs" required>
 
             <label class="form-control w-full max-w-xs">Phone Number *</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="input input-bordered w-full max-w-xs" required> 
+            <input type="text" id="phoneNumber" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="input input-bordered w-full max-w-xs" required> 
               
             <label class="form-control w-full max-w-xs">Email Id *</label>
             <input type="email" placeholder="Enter Your Email Id" class="input input-bordered w-full max-w-xs" > <br>
 
-            <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md w-full max-w-xs">next</button>
+            <button id="nextBtn" class="bg-gray-500 text-white px-4 py-2 rounded disabled:opacity-50 disabled:cursor-not-allowed">Next</button>
 
-        </div>
-      </div>
-      <!-- right Finish -->
-  </section>
+</div>
+</div>
+<!-- right Finish -->
 </section>
-    <footer>
-  </footer>
 
-
+<footer>
+</footer>    
 <script src="script.js"></script>
 </body>
 </html>
